@@ -9,7 +9,7 @@ namespace BonFromage.Models
         public string Name { get; set; }
 
         public string Description { get; set; }
-        [DataType(DataType.Currency)]
-        public decimal Price { get; set; }
+         [DataType(DataType.Currency)]
+         public decimal Price { get; set; }
     }
 }
